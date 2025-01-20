@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -78,9 +78,11 @@ ul,li{
 
   a{
     text-decoration: none;
+    color: white;
 
   }
-    
+
+
 
 .w-100{
     width: 100%;
@@ -204,7 +206,7 @@ header{
 .jumbo-bg{
     background-color: var(--bce-header-jumbo);
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
 }
@@ -215,8 +217,13 @@ header{
     height: 80%;
     /* width: 80%; */
     text-align: center;
+    align-items: end;
     padding: 2rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
+        p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
 
     .jumbo-text{
         margin-top: 2rem;
@@ -246,6 +253,9 @@ header{
     /* min-height: 500px; */
     display: flex;
     margin-bottom: 5rem;
+    p{
+        line-height: 1.8;
+    }
 
 }
 
@@ -255,8 +265,8 @@ header{
     text-align: center;
     margin-bottom: 5rem;
     p{
-        line-height: 1.3rem;
-        font-size: .8rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
         margin-top: 1rem;
         }
     .tech-cta{
@@ -325,10 +335,6 @@ footer{
         color: white;
     }
 }
-/* .flag-img>img{
-    width: 8%
-} */
-
 .social-icons{
     display: flex;
     margin-top: 1rem;
@@ -340,3 +346,7 @@ footer{
     }
 }
 
+
+.prova{
+    margin-right: 2rem;
+}
