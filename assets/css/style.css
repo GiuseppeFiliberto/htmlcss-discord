@@ -14,7 +14,7 @@ body{
     --bce-jbc: #ee82ee;
     --bce-primary: #1e90ff;
     --bce-primary-variant: #ffc0cb;
-    --bce-darkbg: #d3d3d3;
+    --bce-darkbg: #f6f6f6;
     --bce-tech: #228b22;
     --bce-darker: #23272a;
     --bce-secondary-variant: #f08080;
@@ -76,8 +76,29 @@ ul,li{
 
 a{
     text-decoration: none;
+    
 }
-
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+ 
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  
 .w-100{
     width: 100%;
 }
