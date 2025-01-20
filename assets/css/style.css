@@ -12,7 +12,7 @@ body{
 :root{
     --bce-header-jumbo: #3161e0;
     --bce-jbc: #ee82ee;
-    --bce-primary: #1e90ff;
+    --bce-primary: #8ea1e1;
     --bce-primary-variant: #ffc0cb;
     --bce-darkbg: #f6f6f6;
     --bce-tech: #228b22;
@@ -20,14 +20,15 @@ body{
     --bce-secondary-variant: #f08080;
     --bce-secondary: #20b2aa;
     --bce-foot-bg: #7fffd4;
-    --bce-btn-down: #8ea1e1;
 }
 
 
+.bg-darker{
+    background-color: var(--bce-darker);
+}
 
 
-
-.debug,*{
+/* .debug,*{
     border: 1px dashed black;
 
     .bg-primary{
@@ -44,9 +45,6 @@ body{
     
     .bg-tech{
         background-color: var(--bce-tech);
-    }
-    .bg-darker{
-        background-color: var(--bce-darker);
     }
     
     .bg-secondary{
@@ -67,13 +65,8 @@ body{
     .primary-variant-db{
         background-color: var(--bce-primary-variant);
     }
-}
+} */
 
-ul,li{
-    display: inline-block;
-    
-
-}
 
 a{
     text-decoration: none;
@@ -164,12 +157,20 @@ a:link {
     line-height: 1.3rem;
 }
 
+.ta-j{
+    text-align: justify;
+}
+
 .border-bottom{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid var(--bce-primary);
 }
 
 a{
     text-decoration: none;
+}
+
+.color-primary{
+    color: var(--bce-primary);
 }
 /* utilities */
 
@@ -187,6 +188,11 @@ header{
     display: flex;
     background-color: var(--bce-header-jumbo);
     justify-content: center;
+    ul,li{
+        display: inline-block;
+        
+    
+    }
 }
 
 .header-content{
@@ -211,17 +217,16 @@ header{
 .jumbo-bg{
     background-color: var(--bce-header-jumbo);
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* min-height: 400px; */
     display: flex;
 }
 
 .jumbotron{
     /* background-color: var(--bce-jbc); */
     color: white;
-    /* height: 80%; */
-    width: 80%;
+    height: 80%;
+    /* width: 80%; */
     text-align: center;
     padding: 2rem;
     padding-bottom: 15rem;
@@ -282,14 +287,17 @@ header{
 }
 
 
-
-
-
 footer{
-    min-height: 628px;
+    min-height: 430px;
     display: flex;
+    
 }
 
+.list-style{
+    color: white;
+    list-style-type: none;
+    line-height: 2rem;
+}
 .footer{
     min-height: 108px;
     display: flex;}
@@ -302,20 +310,17 @@ footer{
 
 .bg-footer{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
-.logo-foot-style{
-
-    background-color: var(--bce-primary-variant);
-    padding: .3rem;
-}
 
 .btn-foot-style{
 
-    background-color: var(--bce-primary-variant);
-    padding: .3rem;
+    background-color: var(--bce-primary);
+    color: white;
+    padding: .60rem 1rem;
+    border-radius: 1rem;;
 
 }
 
