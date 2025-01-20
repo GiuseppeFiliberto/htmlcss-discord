@@ -67,7 +67,9 @@ body{
     }
 } */
 
-
+ul,li{
+    list-style-type: none;
+}
 a{
     text-decoration: none;
     
@@ -322,5 +324,31 @@ footer{
     padding: .60rem 1rem;
     border-radius: 1rem;;
 
+}
+
+.flag-img{
+    margin-top: 1.5rem;
+    display: inline-block;
+
+    img{
+        width: 15%;
+    }
+    span{
+        color: white;
+    }
+}
+/* .flag-img>img{
+    width: 8%
+} */
+
+.social-icons{
+    display: flex;
+    margin-top: 1rem;
+
+    .social-style{
+        font-size: 1.3rem;
+        color: white;
+        margin-right: 1rem ;
+    }
 }
 
