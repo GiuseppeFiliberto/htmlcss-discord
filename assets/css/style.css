@@ -67,6 +67,7 @@ body{
         background-color: var(--bce-primary-variant);
     }
 }
+
 ul,li{
     display: inline-block;
     
@@ -166,7 +167,7 @@ header{
 .btn-login{
     background-color: white;
     color: black;
-    padding: .75rem;
+    padding: .60rem 1rem;
     border-radius: 1rem;
 
 }
@@ -174,7 +175,9 @@ header{
 .jumbo-bg{
     background-color: var(--bce-header-jumbo);
     background-image: url(../img/jumbo.png);
-    /* min-height: 500px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
     display: flex;
 }
 
@@ -193,15 +196,18 @@ header{
 
     .btn-cta-download{
         background-color: white;
-        padding: .7rem;
+        padding: .7rem 1.5rem;
         border-radius: 1rem;
+        margin-right: 1rem;
+        border: none;
     }
 
     .btn-cta-open{
         background-color: rgb(13, 9, 9);
         color: white;
-        padding: .7rem;
+        padding: .7rem 1.5rem;
         border-radius: 1rem;
+        border: none;
     }
 }
 
