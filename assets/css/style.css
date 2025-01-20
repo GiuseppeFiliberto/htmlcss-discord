@@ -67,33 +67,20 @@ body{
     }
 } */
 
+
 ul,li{
     list-style-type: none;
 }
-a{
-    text-decoration: none;
-    
-}
-a:link {
-    color: blue;
-  }
-  
-  a:visited {
-    color: purple;
-  }
-  
-  a:hover {
-    color: green;
-  }
-  
-  a:active {
-    color: red;
-  }
-  
- 
+
   a:link, a:visited {
     text-decoration: none;
   }
+
+  a{
+    text-decoration: none;
+
+  }
+    
 
 .w-100{
     width: 100%;
@@ -167,9 +154,7 @@ a:link {
     border-bottom: 1px solid var(--bce-primary);
 }
 
-a{
-    text-decoration: none;
-}
+/* /utilities */
 
 .color-primary{
     color: var(--bce-primary);
@@ -235,7 +220,7 @@ header{
 
     .jumbo-text{
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
 
     .btn-cta-download{
@@ -260,12 +245,15 @@ header{
 .icf-section{
     /* min-height: 500px; */
     display: flex;
+    margin-bottom: 5rem;
+
 }
 
 .tech-section{
-    /* min-height: 990px; */
+    /* min-height: 1200px; */
     display: flex;
     text-align: center;
+    margin-bottom: 5rem;
     p{
         line-height: 1.3rem;
         font-size: .8rem;
@@ -279,7 +267,7 @@ header{
         padding: 2rem;
     }
     .btn-cta-tech{
-        background-color: var(--bce-btn-down);
+        background-color: var(--bce-primary);
         color: white;
         padding: .7rem 1.5rem;
         border-radius: 1rem;
