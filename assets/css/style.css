@@ -20,6 +20,7 @@ body{
     --bce-secondary-variant: #f08080;
     --bce-secondary: #20b2aa;
     --bce-foot-bg: #7fffd4;
+    --bce-btn-down: #8ea1e1;
 }
 
 
@@ -98,7 +99,7 @@ a:link {
   a:link, a:visited {
     text-decoration: none;
   }
-  
+
 .w-100{
     width: 100%;
 }
@@ -148,7 +149,9 @@ a:link {
 .fz-2_4{
     font-size: 2.4rem;
 }
-
+.fz-2{
+    font-size: 1.8rem;
+}
 .mr_ml_auto{
     margin-left: auto;
     margin-right: auto;
@@ -254,7 +257,32 @@ header{
 .tech-section{
     min-height: 990px;
     display: flex;
+    text-align: center;
+    p{
+        line-height: 1.3rem;
+        font-size: .8rem;
+        margin-top: 1rem;
+        }
+    .tech-cta{
+        background-image: url(../img/stars.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        padding: 2rem;
+    }
+    .btn-cta-tech{
+        background-color: var(--bce-btn-down);
+        color: white;
+        padding: .7rem 1.5rem;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1rem;
+    }
 }
+
+
+
+
 
 footer{
     min-height: 628px;
