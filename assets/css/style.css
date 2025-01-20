@@ -26,7 +26,9 @@ body{
 .bg-darker{
     background-color: var(--bce-darker);
 }
-
+.bg-dark{
+    background-color: var(--bce-darkbg);
+}
 
 /* .debug,*{
     border: 1px dashed black;
@@ -39,9 +41,7 @@ body{
         background-color: var(--bce-primary-variant);
     }
     
-    .bg-dark{
-        background-color: var(--bce-darkbg);
-    }
+    
     
     .bg-tech{
         background-color: var(--bce-tech);
@@ -209,6 +209,7 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 5rem;
 }
 
 .jumbotron{
@@ -247,14 +248,30 @@ header{
     }
 }
 
+.wave{
+    background-color: var(--bce-darkbg);
+    -webkit-mask-image: url(../img/wave.svg);
+    mask-image: url(../img/wave.svg);
+    height: 150px;
+}
+
+.ctp{
+    background-color: var(--bce-darkbg);
+}
+.wave-white{
+    background-color: white;
+    -webkit-mask-image: url(../img/wave.svg);
+    mask-image: url(../img/wave.svg);
+    height: 150px;
+}
 
 
 .icf-section{
     /* min-height: 500px; */
     display: flex;
-    margin-bottom: 5rem;
     p{
         line-height: 1.8;
+        font-size: 1.2rem;
     }
 
 }
@@ -263,7 +280,7 @@ header{
     /* min-height: 1200px; */
     display: flex;
     text-align: center;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
     p{
         line-height: 1.5rem;
         font-size: 1rem;
