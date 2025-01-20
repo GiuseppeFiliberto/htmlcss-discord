@@ -140,8 +140,12 @@ ul,li{
     margin-left: auto;
     margin-right: auto;
 }
+
 .mb-1{
     margin-bottom: 1rem;
+}
+.mr-2{
+    margin-right: 2rem;
 }
 
 .lh-1_3{
@@ -304,10 +308,13 @@ header{
 }
 
 
-footer{
-    min-height: 430px;
+.container-column{
+    width: 70%;
     display: flex;
-    
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .list-style{
@@ -315,14 +322,13 @@ footer{
     list-style-type: none;
     line-height: 2rem;
 }
-.footer{
-    min-height: 108px;
-    display: flex;}
 
 .footer-section{
     width: 70%;
     display: flex;
     align-items: flex-end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .bg-footer{
@@ -337,7 +343,8 @@ footer{
     background-color: var(--bce-primary);
     color: white;
     padding: .60rem 1rem;
-    border-radius: 1rem;;
+    border-radius: 1rem;
+    border: none;
 
 }
 
@@ -364,6 +371,3 @@ footer{
 }
 
 
-.prova{
-    margin-right: 2rem;
-}
