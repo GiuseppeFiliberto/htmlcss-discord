@@ -29,6 +29,9 @@ body{
 .bg-dark{
     background-color: var(--bce-darkbg);
 }
+/* general rule + colors */
+
+
 
 /* .debug,*{
     border: 1px dashed black;
@@ -82,6 +85,7 @@ ul,li{
 
   }
 
+/* weight utilites */
 
 
 .w-100{
@@ -110,6 +114,8 @@ ul,li{
     width: 17%;
 }
 
+/* height utilites */
+
 .h-80{
     height: 80%;
 }
@@ -121,6 +127,8 @@ ul,li{
 .h-70{
     height: 70%;
 }
+
+/* fontsize */
 
 .fz-2_8{
     font-size: 2.8rem;
@@ -136,6 +144,9 @@ ul,li{
 .fz-2{
     font-size: 1.8rem;
 }
+
+/* margins */
+
 .mr_ml_auto{
     margin-left: auto;
     margin-right: auto;
@@ -148,13 +159,13 @@ ul,li{
     margin-right: 2rem;
 }
 
+
+/* lineheight */
+
 .lh-1_3{
     line-height: 1.3rem;
 }
 
-.ta-j{
-    text-align: justify;
-}
 
 .border-bottom{
     border-bottom: 1px solid var(--bce-primary);
@@ -175,6 +186,7 @@ ul,li{
     justify-content: center;
 }
 
+/* Header + jumbo section */
 
 header{
     min-height: 70px;
@@ -252,6 +264,7 @@ header{
     }
 }
 
+/* waves */
 .wave{
     background-color: var(--bce-darkbg);
     -webkit-mask-image: url(../img/wave.svg);
@@ -269,6 +282,8 @@ header{
     height: 150px;
 }
 
+
+/* main sections */
 
 .icf-section{
     /* min-height: 500px; */
@@ -307,6 +322,7 @@ header{
     }
 }
 
+/* footer */
 
 .container-column{
     width: 70%;
