@@ -213,7 +213,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 400px;
+    /* min-height: 400px; */
     display: flex;
 }
 
@@ -224,6 +224,7 @@ header{
     width: 80%;
     text-align: center;
     padding: 2rem;
+    padding-bottom: 15rem;
 
     .jumbo-text{
         margin-top: 2rem;
@@ -250,12 +251,12 @@ header{
 
 
 .icf-section{
-    min-height: 500px;
+    /* min-height: 500px; */
     display: flex;
 }
 
 .tech-section{
-    min-height: 990px;
+    /* min-height: 990px; */
     display: flex;
     text-align: center;
     p{
